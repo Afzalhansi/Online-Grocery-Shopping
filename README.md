@@ -2,10 +2,6 @@
 
 An interactive and responsive **Online Grocery Shopping** website built using **HTML, CSS, JavaScript**, and **Python** (for lightweight backend utilities). This project provides a seamless and user-friendly shopping experience with a focus on modern design, responsiveness, and ease of use.
 
-## 🌐 Demo
-
-[Click here to view live demo (if hosted)](https://your-live-site-link.com)
-
 ## 📌 Features
 
 - 🏠 **Homepage** with featured products and categories
