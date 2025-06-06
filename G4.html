@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./G4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-XXXXXX" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Grocery Store</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <span>
+                    <p>Grocery Store</p>
+                </span>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#vegetables">Vegetables</a>
+                    </li>
+                    <li>
+                        <a href="#fruits">Fruits</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="text" placeholder="Search products...">
+                <button>Search</button>
+            </div>
+            <div class="cart-icons">
+                <a href="#" class="cart-icon" id="view-cart"><i class="fas fa-shopping-cart"></i> Cart</a>
+                <a href="#" class="cart-icon" id="buy-now"><i class="fas fa-money-bill-wave"></i> Buy Now</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2 id="vegetables">Vegetables</h2>
+
+            <div class="category">
+                <div class="product">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231223000922/carrot.jpg"
+                        alt="Vegetable 1">
+                    <h3>Carrot</h3>
+                    <p class="price">$1.99/1kg</p>
+                    <div class="qyt">
+                        <label for="quantity_vegetable1">
+                            Quantity:
+                        </label>
+                        <input type="number" id="quantity_vegetable1" value="1">
+                    </div>
+                    <div class="productbtns">
+                        <button data-product-id="vegetable1" class="add-to-cart"><i class="fas fa-cart-plus"></i> Add to
+                            Cart</button>
+                        <button data-product-id="vegetable1" class="buy-now"><i class="fas fa-money-bill-wave"></i> Buy
+                            Now</button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231223000920/radish.jpg"
+                        alt="Vegetable 2">
+                    <h3>Radish</h3>
+                    <p class="price">$1.49/1kg</p>
+                    <div class="qyt">
+                        <label for="quantity_vegetable2">
+                            Quantity:
+                        </label>
+                        <input type="number" id="quantity_vegetable2" value="1">
+                    </div>
+                    <div class="productbtns">
+                        <button data-product-id="vegetable2" class="add-to-cart"><i class="fas fa-cart-plus"></i> Add to
+                            Cart</button>
+                        <button data-product-id="vegetable2" class="buy-now"><i class="fas fa-money-bill-wave"></i> Buy
+                            Now</button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231223000921/pumpkin.jpg"
+                        alt="Vegetable 3">
+                    <h3>Pumpkin</h3>
+                    <p class="price">$2.99/1kg</p>
+                    <div class="qyt">
+                        <label for="quantity_vegetable3">
+                            Quantity:
+                        </label>
+                        <input type="number" id="quantity_vegetable3" value="1">
+                    </div>
+                    <div class="productbtns">
+                        <button data-product-id="vegetable3" class="add-to-cart"><i class="fas fa-cart-plus"></i> Add to
+                            Cart</button>
+                        <button data-product-id="vegetable3" class="buy-now"><i class="fas fa-money-bill-wave"></i> Buy
+                            Now</button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231223000921/brinjal.jpg"
+                        alt="Vegetable 4">
+                    <h3>Brinjal</h3>
+                    <p class="price">$1.79/1kg</p>
+                    <div class="qyt">
+                        <label for="quantity_vegetable4">
+                            Quantity:
+                        </label>
+                        <input type="number" id="quantity_vegetable4" value="1">
+                    </div>
+                    <div class="productbtns">
+                        <button data-product-id="vegetable4" class="add-to-cart"><i class="fas fa-cart-plus"></i> Add to
+                            Cart</button>
+                        <button data-product-id="vegetable4" class="buy-now"><i class="fas fa-money-bill-wave"></i> Buy
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 id="fruits">Fruits</h2>
+            <div class="category">
+                <div class="product">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231223000923/apple.jpg"
+                        alt="Fruit 1">
+                    <h3>Apple</h3>
+                    <p class="price">$2.49/1kg</p>
+                    <div class="qyt">
+                        <label for="quantity_fruit1">
+                            Quantity:
+                        </label>
+                        <input type="number" id="quantity_fruit1" value="1">
+                    </div>
+                    <div class="productbtns">
+                        <button data-product-id="fruit1" class="add-to-cart"><i class="fas fa-cart-plus"></i> Add to
+                            Cart</button>
+                        <button data-product-id="fruit1" class="buy-now"><i class="fas fa-money-bill-wave"></i> Buy
+                            Now</button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231223000951/banana.jpg"
+                        alt="Fruit 2">
+                    <h3>Banana</h3>
+                    <p class="price">$0.99/1kg</p>
+                    <div class="qyt">
+                        <label for="quantity_fruit2">
+                            Quantity:
+                        </label>
+                        <input type="number" id="quantity_fruit2" value="1">
+                    </div>
+                    <div class="productbtns">
+                        <button data-product-id="fruit2" class="add-to-cart"><i class="fas fa-cart-plus"></i> Add to
+                            Cart</button>
+                        <button data-product-id="fruit2" class="buy-now"><i class="fas fa-money-bill-wave"></i> Buy
+                            Now</button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231223000923/orange.jpg"
+                        alt="Fruit 4">
+                    <h3>Orange</h3>
+                    <p class="price">$0.79/1kg</p>
+                    <div class="qyt">
+                        <label for="quantity_fruit4">
+                            Quantity:
+                        </label>
+                        <input type="number" id="quantity_fruit4" value="1">
+                    </div>
+                    <div class="productbtns">
+                        <button data-product-id="fruit4" class="add-to-cart"><i class="fas fa-cart-plus"></i> Add to
+                            Cart</button>
+                        <button data-product-id="fruit4" class="buy-now"><i class="fas fa-money-bill-wave"></i> Buy
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Grocery Store. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Buy Now and Add to Cart functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Function to handle adding to cart
+            function addToCart(productId, quantity) {
+                let cart = JSON.parse(localStorage.getItem('cart')) || {};
+                if (cart[productId]) {
+                    cart[productId] += parseInt(quantity);
+                } else {
+                    cart[productId] = parseInt(quantity);
+                }
+                localStorage.setItem('cart', JSON.stringify(cart));
+                alert(`Added ${quantity} of product ${productId} to cart.`);
+            }
+
+            // Function to handle buy now action
+            function buyNow(productId, quantity) {
+                let cart = {};
+                cart[productId] = parseInt(quantity);
+                localStorage.setItem('cart', JSON.stringify(cart));
+                window.location.href = 'checkout.html'; // Redirect to checkout page
+            }
+
+            // Event listener for all buttons
+            let buttons = document.querySelectorAll('.productbtns button');
+            buttons.forEach(function (button) {
+                button.addEventListener('click', function (event) {
+                    let productId = event.target.getAttribute('data-product-id');
+                    let quantity = event.target.parentElement.previousElementSibling.querySelector('input').value;
+                    if (event.target.classList.contains('add-to-cart')) {
+                        addToCart(productId, quantity);
+                    } else if (event.target.classList.contains('buy-now')) {
+                        buyNow(productId, quantity);
+                    }
+                });
+            });
+
+            // View Cart and Buy Now links functionality
+            document.getElementById('view-cart').addEventListener('click', function (event) {
+                event.preventDefault();
+                window.location.href = 'cart.html'; // Redirect to cart page
+            });
+
+            document.getElementById('buy-now').addEventListener('click', function (event) {
+                event.preventDefault();
+                let firstProduct = Object.keys(JSON.parse(localStorage.getItem('cart') || '{}'))[0];
+                if (firstProduct) {
+                    window.location.href = 'checkout.html'; // Redirect to checkout page
+                } else {
+                    alert('Your cart is empty. Please add items to proceed.');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
